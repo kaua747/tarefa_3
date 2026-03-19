@@ -1,0 +1,87 @@
+{
+  "info": {
+    "_postman_id": "b2387a19-0c36-427b-9068-1b7feeb6fc13",
+    "name": "tarefa_3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53084641",
+    "_collection_link": "https://go.postman.co/collection/53084641-b2387a19-0c36-427b-9068-1b7feeb6fc13?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "contato",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/contato",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "contato"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "obter",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/obterContato",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "obterContato"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "atualizar",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/atualizarContato",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "atualizarContato"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "deletar",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/deleteContato",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "deleteContato"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
